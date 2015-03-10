@@ -57,4 +57,9 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+Rails.application.routes.draw do
+  get 'static_pages/home'
+  get 'static_pages/help'
+end
+
 end
